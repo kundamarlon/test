@@ -1,0 +1,31 @@
+{
+  "name": "addBed",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "bedNumber": {
+      "type": "string"
+    },
+    "patientId": {
+      "type": "string"
+    },
+    "patient": {
+      "type": "string",
+      "default": "Free"
+    },
+    "admissionDate": {
+      "type": "string",
+      "default": "Free"
+    },
+    "free": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

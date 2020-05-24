@@ -1,0 +1,62 @@
+{
+  "name": "billing",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "string"
+    },
+    "patientId": {
+      "type": "string"
+    },
+    "timeBilling": {
+      "type": "string"
+    },
+    "toc": {
+      "type": "string"
+    },
+    "st": {
+      "type": "string"
+    },
+    "procedure": {
+      "type": "string"
+    },
+    "consumables": {
+      "type": "array",
+      "default": []
+    },
+    "specialDrugs": {
+      "type": "array",
+      "default": []
+    },
+    "drugs": {
+      "type": "array",
+      "default": []
+    },
+    "sundries": {
+      "type": "array",
+      "default": []
+    },
+    "billables": {
+      "type": "array",
+      "default": []
+    },
+    "department": {
+      "type": "string"
+    },
+    "mods": {
+      "type": "string"
+    },
+    "billed": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

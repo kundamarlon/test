@@ -1,0 +1,32 @@
+{
+  "name": "nurseorders",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "product_name": {
+      "type": "string"
+    },
+    "product_code": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "number"
+    },
+    "department": {
+      "type": "string"
+    },
+    "order_date": {
+      "type": "date"
+    },
+    "processed": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

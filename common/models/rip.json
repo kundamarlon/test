@@ -1,0 +1,44 @@
+{
+  "name": "rip",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "patient": {
+      "type": "string"
+    },
+    "dod": {
+      "type": "string"
+    },
+    "tod": {
+      "type": "string"
+    },
+    "relativeStatus": {
+      "type": "string"
+    },
+    "relative": {
+      "type": "string"
+    },
+    "relationship": {
+      "type": "string"
+    },
+    "policeStatus": {
+      "type": "string"
+    },
+    "police": {
+      "type": "string"
+    },
+    "doctor": {
+      "type": "string"
+    },
+    "certifiedTime": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

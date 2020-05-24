@@ -1,0 +1,34 @@
+{
+  "name": "room",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "roomNumber": {
+      "type": "string"
+    },
+    "numofbeds": {
+      "type": "number"
+    },
+    "numoffreebeds": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "beds": {
+      "type": "hasMany",
+      "model": "bed",
+      "foreignKey": ""
+    },
+    "admissions": {
+      "type": "hasMany",
+      "model": "admission",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

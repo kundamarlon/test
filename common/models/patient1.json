@@ -1,0 +1,201 @@
+{
+  "name": "patient",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "accountId": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "medicalAid": {
+      "type": "array"
+    },
+    "title": {
+      "type": "string"
+    },
+    "nextOfKin": {
+      "type": "string"
+    },
+    "allergies": {
+      "type": "string"
+    },
+    "accountNumber": {
+      "type": "string"
+    },
+    "accountBalance": {
+      "type": "Number",
+      "default": 0
+    },
+    "sendAccountCompany": {
+      "type": "string"
+    },
+    "sendAccount": {
+      "type": "string"
+    },
+    "addressSuburb": {
+      "type": "string"
+    },
+    "addressCity": {
+      "type": "string"
+    },
+    "addressCountry": {
+      "type": "string"
+    },
+    "beneficiaryRelation": {
+      "type": "string"
+    },
+    "telephoneMobile": {
+      "type": "string"
+    },
+    "telephoneWork": {
+      "type": "string"
+    },
+    "nextOfKinFirstName": {
+      "type": "string"
+    },
+    "nextOfKinLastName": {
+      "type": "string"
+    },
+    "nextOfKinRelation": {
+      "type": "string"
+    },
+    "nextOfKinHomeTelephone": {
+      "type": "string"
+    },
+    "nextOfKinEmail": {
+      "type": "string"
+    },
+    "nextOfKinWorkTelephone": {
+      "type": "string"
+    },
+    "medicalAidSociety": {
+      "type": "string",
+      "default": "None"
+    },
+    "medicalAidNumber": {
+      "type": "string"
+    },
+    "medicalAidMember": {
+      "type": "string"
+    },
+    "medicalAidRelationship": {
+      "type": "string"
+    },
+    "medicalAidSociety1": {
+      "type": "string",
+      "default": "None"
+    },
+    "medicalAidNumber1": {
+      "type": "string"
+    },
+    "medicalAidMember1": {
+      "type": "string"
+    },
+    "medicalAidRelationship1": {
+      "type": "string"
+    },
+    "medicalAidSociety2": {
+      "type": "string",
+      "default": "None"
+    },
+    "medicalAidNumber2": {
+      "type": "string",
+      "default": "None"
+    },
+    "medicalAidMember2": {
+      "type": "string",
+      "default": "None"
+    },
+    "medicalAidRelationship2": {
+      "type": "string",
+      "default": "None"
+    },
+    "medicalAidSociety3": {
+      "type": "string",
+      "default": "None"
+    },
+    "medicalAidNumber3": {
+      "type": "string"
+    },
+    "medicalAidMember3": {
+      "type": "string"
+    },
+    "medicalAidRelationship3": {
+      "type": "string"
+    },
+    "medicalAidSociety4": {
+      "type": "string",
+      "default": "None"
+    },
+    "medicalAidNumber4": {
+      "type": "string"
+    },
+    "medicalAidMember4": {
+      "type": "string"
+    },
+    "medicalAidRelationship4": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "visits": {
+      "type": "hasMany",
+      "model": "visit",
+      "foreignKey": ""
+    },
+    "treatments": {
+      "type": "hasMany",
+      "model": "treatment",
+      "foreignKey": ""
+    },
+    "admissions": {
+      "type": "hasMany",
+      "model": "admission",
+      "foreignKey": ""
+    },
+    "prescriptions": {
+      "type": "hasMany",
+      "model": "prescription",
+      "foreignKey": ""
+    },
+    "addBeds": {
+      "type": "hasMany",
+      "model": "addBed",
+      "foreignKey": ""
+    },
+    "invoices": {
+      "type": "hasMany",
+      "model": "invoice",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

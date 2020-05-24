@@ -1,0 +1,32 @@
+{
+  "name": "task",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "completeBy": {
+      "type": "date"
+    },
+    "assignedBy": {
+      "type": "string"
+    },
+    "assignedTo": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "completed": {
+      "type": "boolean"
+    },
+    "task": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

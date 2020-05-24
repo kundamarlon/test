@@ -1,0 +1,44 @@
+{
+  "name": "theatreReferral",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "date"
+    },
+    "patientName": {
+      "type": "string"
+    },
+    "doctorName": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "string"
+    },
+    "orders": {
+      "type": "string"
+    },
+    "medication": {
+      "type": "string"
+    },
+    "complications": {
+      "type": "string"
+    },
+    "postOperative": {
+      "type": "string"
+    },
+    "doctor": {
+      "type": "string"
+    },
+    "user": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

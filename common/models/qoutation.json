@@ -1,0 +1,116 @@
+{
+  "name": "qoutation",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "medicalAid": {
+      "type": "string"
+    },
+    "procedure": {
+      "type": "string"
+    },
+    "tariffCode": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "string"
+    },
+    "tariffCode1": {
+      "type": "string"
+    },
+    "quantity1": {
+      "type": "string"
+    },
+    "amount1": {
+      "type": "string"
+    },
+    "tariffCode2": {
+      "type": "string"
+    },
+    "quantity2": {
+      "type": "string"
+    },
+    "amount2": {
+      "type": "string"
+    },
+    "tariffCode3": {
+      "type": "string"
+    },
+    "quantity3": {
+      "type": "string"
+    },
+    "amount3": {
+      "type": "string"
+    },
+    "tariffCode4": {
+      "type": "string"
+    },
+    "quantity4": {
+      "type": "string"
+    },
+    "amount4": {
+      "type": "string"
+    },
+    "tariffCode5": {
+      "type": "string"
+    },
+    "quantity5": {
+      "type": "string"
+    },
+    "amount5": {
+      "type": "string"
+    },
+    "tariffCode6": {
+      "type": "string"
+    },
+    "quantity6": {
+      "type": "string"
+    },
+    "amount6": {
+      "type": "string"
+    },
+    "tariffCode7": {
+      "type": "string"
+    },
+    "quantity7": {
+      "type": "string"
+    },
+    "amount7": {
+      "type": "string"
+    },
+    "tariffCode8": {
+      "type": "string"
+    },
+    "quantity8": {
+      "type": "string"
+    },
+    "amount8": {
+      "type": "string"
+    },
+    "tariffCode9": {
+      "type": "string"
+    },
+    "quantity9": {
+      "type": "string"
+    },
+    "amount9": {
+      "type": "string"
+    },
+    "total": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

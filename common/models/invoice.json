@@ -1,0 +1,107 @@
+{
+  "name": "invoice",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "patientname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phonenumber": {
+      "type": "string"
+    },
+    "user": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "specialDrugs": {
+      "type": "array"
+    },
+    "specialDrugsTotal": {
+      "type": "number"
+    },
+    "patientBillables": {
+      "type": "array"
+    },
+    "patientBillablesTotal": {
+      "type": "number"
+    },
+    "patientSundries": {
+      "type": "array"
+    },
+    "patientSundriesTotal": {
+      "type": "number"
+    },
+    "patientDrugs": {
+      "type": "array"
+    },
+    "patientDrugsTotal": {
+      "type": "number"
+    },
+    "cashPaid": {
+      "type": "number"
+    },
+    "electronicPaymentReference": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "billingCategory": {
+      "type": "string"
+    },
+    "totalPrice": {
+      "type": "string"
+    },
+    "shortFall": {
+      "type": "string"
+    },
+    "accountNumber": {
+      "type": "string"
+    },
+    "invoicenumber": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "duedate": {
+      "type": "date"
+    },
+    "paymentmethod": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array"
+    },
+    "subtotal": {
+      "type": "number"
+    },
+    "tax": {
+      "type": "number"
+    },
+    "discount": {
+      "type": "number"
+    },
+    "total": {
+      "type": "number"
+    },
+    "paid": {
+      "type": "number"
+    },
+    "balancedue": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

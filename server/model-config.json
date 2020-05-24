@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "admission": {
+    "dataSource": "db",
+    "public": true
+  },
+  "bed": {
+    "dataSource": "db",
+    "public": true
+  },
+  "billing": {
+    "dataSource": "db",
+    "public": true
+  },
+  "casoff": {
+    "dataSource": "db",
+    "public": true
+  },
+  "doctor": {
+    "dataSource": "db",
+    "public": true
+  },
+  "inventory": {
+    "dataSource": "db",
+    "public": true
+  },
+  "nurse": {
+    "dataSource": "db",
+    "public": true
+  },
+  "patient": {
+    "dataSource": "db",
+    "public": true
+  },
+  "recp": {
+    "dataSource": "db",
+    "public": true
+  },
+  "reminder": {
+    "dataSource": "db",
+    "public": true
+  },
+  "room": {
+    "dataSource": "db",
+    "public": true
+  },
+  "task": {
+    "dataSource": "db",
+    "public": true
+  },
+  "theatre": {
+    "dataSource": "db",
+    "public": true
+  },
+  "treatment": {
+    "dataSource": "db",
+    "public": true
+  },
+  "visit": {
+    "dataSource": "db",
+    "public": true
+  },
+  "procedure": {
+    "dataSource": "db",
+    "public": true
+  },
+  "scope": {
+    "dataSource": "db",
+    "public": true
+  },
+  "prescription": {
+    "dataSource": "db",
+    "public": true
+  },
+  "invoice": {
+    "dataSource": "db",
+    "public": true
+  },
+  "item": {
+    "dataSource": "db",
+    "public": true
+  },
+  "recInvoice": {
+    "dataSource": "db",
+    "public": true
+  },
+  "admin": {
+    "dataSource": "db",
+    "public": true
+  },
+  "acc": {
+    "dataSource": "db",
+    "public": true
+  },
+  "threatre_user": {
+    "dataSource": "db",
+    "public": true
+  },
+  "invent": {
+    "dataSource": "db",
+    "public": true
+  },
+  "staff": {
+    "dataSource": "db",
+    "public": true
+  },
+  "availability": {
+    "dataSource": "db",
+    "public": true
+  },
+  "theatreTariff": {
+    "dataSource": "db",
+    "public": true
+  },
+  "nursesTariff": {
+    "dataSource": "db",
+    "public": true
+  },
+  "addBed": {
+    "dataSource": "db",
+    "public": true
+  },
+  "referral": {
+    "dataSource": "db",
+    "public": true
+  },
+  "management": {
+    "dataSource": "db",
+    "public": true
+  },
+  "dispatch": {
+    "dataSource": "db",
+    "public": true
+  },
+  "nurseorders": {
+    "dataSource": "db",
+    "public": true
+  },
+  "qoutation": {
+    "dataSource": "db",
+    "public": true
+  },
+  "bulkPayment": {
+    "dataSource": "db",
+    "public": true
+  },
+  "medicalAid": {
+    "dataSource": "db",
+    "public": true
+  },
+  "shortfallCode": {
+    "dataSource": "db",
+    "public": true
+  },
+  "stockTake": {
+    "dataSource": "db",
+    "public": true
+  },
+  "company": {
+    "dataSource": "db",
+    "public": true
+  },
+  "referralTheatre": {
+    "dataSource": "db",
+    "public": true
+  },
+  "increment": {
+    "dataSource": "db",
+    "public": true
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "name": "inventory",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "product_name": {
+      "type": "string",
+      "required": true
+    },
+    "product_type": {
+      "type": "string"
+    },
+    "product_type2": {
+      "type": "string"
+    },
+    "product_code": {
+      "type": "string"
+    },
+    "product_description": {
+      "type": "string"
+    },
+    "tax": {
+      "type": "number",
+      "default": 0
+    },
+    "quantity": {
+      "type": "number"
+    },
+    "price": {
+      "type": "number"
+    },
+    "exp_date": {
+      "type": "string"
+    },
+    "order_date": {
+      "type": "string"
+    },
+    "order_quantity": {
+      "type": "number"
+    },
+    "average_daily_usage": {
+      "type": "number"
+    },
+    "lead_time": {
+      "type": "number"
+    },
+    "safety_stock": {
+      "type": "number"
+    },
+    "batch_code": {
+      "type": "string"
+    },
+    "department_price": {
+      "type": "number"
+    },
+    "patient_price": {
+      "type": "number"
+    },
+    "bin_location": {
+      "type": "string"
+    },
+    "purchase_cost": {
+      "type": "number"
+    },
+    "purchase_date": {
+      "type": "string"
+    },
+    "warranty_date": {
+      "type": "string"
+    },
+    "expected_lifetime": {
+      "type": "string"
+    },
+    "serial_number": {
+      "type": "string"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

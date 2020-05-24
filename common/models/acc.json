@@ -1,0 +1,94 @@
+{
+  "name": "acc",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstName": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "nextOfKin": {
+      "type": "string"
+    },
+    "addressSuburb": {
+      "type": "string"
+    },
+    "addressCity": {
+      "type": "string"
+    },
+    "addressCountry": {
+      "type": "string"
+    },
+    "telephoneMobile": {
+      "type": "string"
+    },
+    "telephoneWork": {
+      "type": "string"
+    },
+    "nextOfKinFirstName": {
+      "type": "string"
+    },
+    "nextOfKinLastName": {
+      "type": "string"
+    },
+    "nextOfKinRelation": {
+      "type": "string"
+    },
+    "nextOfKinHomeTelephone": {
+      "type": "string"
+    },
+    "nextOfKinEmail": {
+      "type": "string"
+    },
+    "nextOfKinWorkTelephone": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "tasks": {
+      "type": "hasMany",
+      "model": "task",
+      "foreignKey": ""
+    },
+    "reminders": {
+      "type": "hasMany",
+      "model": "reminder",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

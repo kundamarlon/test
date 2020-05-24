@@ -1,0 +1,29 @@
+{
+  "name": "reminder",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "doctorName": {
+      "type": "string"
+    },
+    "nurseName": {
+      "type": "string"
+    },
+    "reminder": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

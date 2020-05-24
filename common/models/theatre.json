@@ -1,0 +1,151 @@
+{
+  "name": "theatre",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "procedure": {
+      "type": "string"
+    },
+    "bp": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "temp": {
+      "type": "string"
+    },
+    "sugar": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "outcome": {
+      "type": "string"
+    },
+    "allegies": {
+      "type": "string"
+    },
+    "dentures": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "oxygen": {
+      "type": "string"
+    },
+    "bmi": {
+      "type": "string"
+    },
+    "vision": {
+      "type": "string"
+    },
+    "toc": {
+      "type": "string"
+    },
+    "st": {
+      "type": "string"
+    },
+    "timeBilling": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "sundry": {
+      "type": "array"
+    },
+    "drugs": {
+      "type": "array"
+    },
+    "scope": {
+      "type": "array"
+    },
+    "patientId": {
+      "type": "string"
+    },
+    "patientname": {
+      "type": "string"
+    },
+    "age": {
+      "type": "number"
+    },
+    "sex": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "firm": {
+      "type": "string"
+    },
+    "time": {
+      "type": "date"
+    },
+    "flag": {
+      "type": "string"
+    },
+    "level": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "referral": {
+      "type": "string"
+    },
+    "surgeon": {
+      "type": "string"
+    },
+    "anesthetic": {
+      "type": "string"
+    },
+    "anesthetist": {
+      "type": "string"
+    },
+    "assistant": {
+      "type": "string"
+    },
+    "surgeon_notes": {
+      "type": "string"
+    },
+    "anesthetic_notes": {
+      "type": "string"
+    },
+    "anesthetist_notes": {
+      "type": "string"
+    },
+    "assistant_notes": {
+      "type": "string"
+    },
+    "iconpath": {
+      "type": "string"
+    },
+    "discharge": {
+      "type": "boolean",
+      "default": false
+    },
+    "btndisable": {
+      "type": "boolean"
+    },
+    "btndisablecompleted": {
+      "type": "string"
+    },
+    "fromDoc": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

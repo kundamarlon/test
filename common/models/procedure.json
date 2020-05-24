@@ -1,0 +1,29 @@
+{
+  "name": "procedure",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "procedure": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "sundry": {
+      "type": "array"
+    },
+    "drugs": {
+      "type": "array"
+    },
+    "scope": {
+      "type": "array"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

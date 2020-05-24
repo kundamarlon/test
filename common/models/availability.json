@@ -1,0 +1,35 @@
+{
+  "name": "availability",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "doctorName": {
+      "type": "string"
+    },
+    "reminder": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "date2": {
+      "type": "string"
+    },
+    "time2": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

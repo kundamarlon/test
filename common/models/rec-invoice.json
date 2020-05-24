@@ -1,0 +1,227 @@
+{
+  "name": "recInvoice",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "patientName": {
+      "type": "string"
+    },
+    "procedure": {
+      "type": "string"
+    },
+    "cashRecieved": {
+      "type": "string"
+    },
+    "sendaccount": {
+      "type": "string",
+      "default": "None"
+    },
+    "year": {
+      "type": "string"
+    },
+    "month": {
+      "type": "string"
+    },
+    "sl": {
+      "type": "string"
+    },
+    "dl": {
+      "type": "string"
+    },
+    "sdl": {
+      "type": "string"
+    },
+    "day": {
+      "type": "string"
+    },
+    "medicalAidnumber": {
+      "type": "string"
+    },
+    "medicalAidSociety": {
+      "type": "string"
+    },
+    "suffix": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "telephoneMobile": {
+      "type": "string"
+    },
+    "claimNumber": {
+      "type": "string"
+    },
+    "doctorName": {
+      "type": "string"
+    },
+    "dateCreated": {
+      "type": "string"
+    },
+    "dateDue": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "method": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "datePaid": {
+      "type": "string"
+    },
+    "customerNotes": {
+      "type": "string"
+    },
+    "user": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "cashPaid": {
+      "type": "number"
+    },
+    "TcashPaid": {
+      "type": "number"
+    },
+    "electronicPaymentReference": {
+      "type": "string"
+    },
+    "member": {
+      "type": "string"
+    },
+    "relationship": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "billingCategory": {
+      "type": "string"
+    },
+    "totalPrice": {
+      "type": "number"
+    },
+    "shortFall": {
+      "type": "number"
+    },
+    "submitted": {
+      "type": "boolean",
+      "default": false
+    },
+    "drugsx": {
+      "type": "string"
+    },
+    "drugsxx": {
+      "type": "string"
+    },
+    "sundriesx": {
+      "type": "string"
+    },
+    "specialDrugs": {
+      "type": "array"
+    },
+    "ConsultationFee": {
+      "type": "object"
+    },
+    "printShortFall": {
+      "type": "number"
+    },
+    "bl": {
+      "type": "number"
+    },
+    "ConsultationFeeTotal": {
+      "type": "number"
+    },
+    "specialDrugsTotal": {
+      "type": "number"
+    },
+    "patientBillables": {
+      "type": "array"
+    },
+    "patientBillablesTotal": {
+      "type": "number"
+    },
+    "patientSundries": {
+      "type": "array"
+    },
+    "patientSundriesTotal": {
+      "type": "number"
+    },
+    "patientDrugs": {
+      "type": "array"
+    },
+    "patientDrugsTotal": {
+      "type": "number"
+    },
+    "reversedAmount": {
+      "type": "number"
+    },
+    "rejectedReason": {
+      "type": "string"
+    },
+    "doctorId": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "reasonStatus": {
+      "type": "boolean",
+      "default": false
+    },
+    "rejectedStatus": {
+      "type": "boolean",
+      "default": false
+    },
+    "accountNumber": {
+      "type": "string"
+    },
+    "PaidByMedicalAid": {
+      "type": "number",
+      "default": 0
+    },
+    "processed": {
+      "type": "boolean",
+      "default": false
+    },
+    "deleted": {
+      "type": "boolean",
+      "default": false
+    },
+    "deleteReason": {
+      "type": "string"
+    },
+    "deletedUser": {
+      "type": "string"
+    },
+    "claimAmount": {
+      "type": "number"
+    },
+    "dob": {
+      "type": "string"
+    },
+    "invoiceNumber": {
+      "type": "string"
+    },
+    "mop": {
+      "type": "string"
+    },
+    "items": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

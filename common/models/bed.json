@@ -1,0 +1,29 @@
+{
+  "name": "bed",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "bedNumber": {
+      "type": "string"
+    },
+    "free": {
+      "type": "boolean"
+    },
+    "patient": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "beds": {
+      "type": "hasMany",
+      "model": "admission",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

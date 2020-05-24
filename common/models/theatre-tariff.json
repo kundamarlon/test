@@ -1,0 +1,32 @@
+{
+  "name": "theatreTariff",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "tariffCode": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "medicalPrice": {
+      "type": "number"
+    },
+    "shortFall": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

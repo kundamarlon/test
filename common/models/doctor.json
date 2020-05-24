@@ -1,0 +1,109 @@
+{
+  "name": "doctor",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "nextOfKin": {
+      "type": "string"
+    },
+    "addressSuburb": {
+      "type": "string"
+    },
+    "addressCity": {
+      "type": "string"
+    },
+    "addressCountry": {
+      "type": "string"
+    },
+    "telephoneMobile": {
+      "type": "string"
+    },
+    "telephoneWork": {
+      "type": "string"
+    },
+    "nextOfKinFirstName": {
+      "type": "string"
+    },
+    "nextOfKinLastName": {
+      "type": "string"
+    },
+    "nextOfKinRelation": {
+      "type": "string"
+    },
+    "nextOfKinHomeTelephone": {
+      "type": "string"
+    },
+    "nextOfKinEmail": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "nextOfKinWorkTelephone": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "visits": {
+      "type": "hasMany",
+      "model": "visit",
+      "foreignKey": ""
+    },
+    "reminders": {
+      "type": "hasMany",
+      "model": "reminder",
+      "foreignKey": ""
+    },
+    "tasks": {
+      "type": "hasMany",
+      "model": "task",
+      "foreignKey": ""
+    },
+    "availabilities": {
+      "type": "hasOne",
+      "model": "availability",
+      "foreignKey": ""
+    },
+    "invoices": {
+      "type": "hasMany",
+      "model": "invoice",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

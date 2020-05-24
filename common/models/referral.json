@@ -1,0 +1,65 @@
+{
+  "name": "referral",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "date"
+    },
+    "patientName": {
+      "type": "string"
+    },
+    "doctorName": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "string"
+    },
+    "cvs": {
+      "type": "string"
+    },
+    "ph": {
+      "type": "string"
+    },
+    "chest": {
+      "type": "string"
+    },
+    "drugs": {
+      "type": "string"
+    },
+    "abdomen": {
+      "type": "string"
+    },
+    "tobacco": {
+      "type": "string"
+    },
+    "investigations": {
+      "type": "string"
+    },
+    "sh": {
+      "type": "string"
+    },
+    "diagnosis": {
+      "type": "string"
+    },
+    "ge": {
+      "type": "string"
+    },
+    "management": {
+      "type": "string"
+    },
+    "doctor": {
+      "type": "string"
+    },
+    "user": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

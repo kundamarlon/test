@@ -1,0 +1,47 @@
+{
+  "name": "admission",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "admittedOn": {
+      "type": "date"
+    },
+    "dischargedOn": {
+      "type": "date"
+    },
+    "admitted": {
+      "type": "boolean"
+    },
+    "discharged": {
+      "type": "boolean",
+      "default": false
+    },
+    "dischargedStatus": {
+      "type": "boolean",
+      "default": false
+    },
+    "dama": {
+      "type": "boolean",
+      "default": false
+    },
+    "rip": {
+      "type": "boolean",
+      "default": false
+    },
+    "transfer": {
+      "type": "boolean",
+      "default": false
+    },
+    "abscond": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

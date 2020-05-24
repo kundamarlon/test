@@ -1,0 +1,65 @@
+{
+  "name": "bulkPayment",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "receiptNo": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "referenceNo": {
+      "type": "string"
+    },
+    "paymentType": {
+      "type": "string"
+    },
+    "modeOfPayment": {
+      "type": "string"
+    },
+    "runNo": {
+      "type": "string"
+    },
+    "runMonth": {
+      "type": "string"
+    },
+    "PaymentDate": {
+      "type": "string"
+    },
+    "totalAmountClaimed": {
+      "type": "string"
+    },
+    "totalCoPayments": {
+      "type": "string"
+    },
+    "totalAmountPaid": {
+      "type": "string"
+    },
+    "totalShortfallAmount": {
+      "type": "string"
+    },
+    "totalAmountAllocated": {
+      "type": "string"
+    },
+    "totalUnallocatedAmount": {
+      "type": "string"
+    },
+    "suspenseAmount": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "claims": {
+      "type": "array"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

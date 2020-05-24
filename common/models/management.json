@@ -1,0 +1,57 @@
+{
+  "name": "management",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "patientname": {
+      "type": "string"
+    },
+    "patientId": {
+      "type": "string"
+    },
+    "visitId": {
+      "type": "string"
+    },
+    "dischargedStatus": {
+      "type": "boolean",
+      "default": false
+    },
+    "consult": {
+      "type": "string"
+    },
+    "broughtInBy": {
+      "type": "string"
+    },
+    "presentingProblem": {
+      "type": "string"
+    },
+    "investigations": {
+      "type": "string"
+    },
+    "nurseDiagnosis": {
+      "type": "string"
+    },
+    "currentMedication": {
+      "type": "string"
+    },
+    "usualDoctor": {
+      "type": "string"
+    },
+    "vitalSigns": {
+      "type": "array"
+    },
+    "medicationGiven": {
+      "type": "array"
+    },
+    "fluidChart": {
+      "type": "array"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
