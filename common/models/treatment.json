@@ -1,0 +1,314 @@
+{
+  "name": "treatment",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "date"
+    },
+    "injectionProcedure": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "cannulation": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "cannula": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        },
+        "amount": {
+          "type": "number"
+        }
+      }
+    },
+    "needles": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        },
+        "amount": {
+          "type": "number"
+        }
+      }
+    },
+    "cottonSwab": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "plasticGloves": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "surgicalGloves": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        },
+        "size": {
+          "type": "number"
+        }
+      }
+    },
+    "clexane": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "morphine": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "diazepam": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "maxolon": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "hyoscine": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "diclofenac": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "promethazine": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "procanePenicillin": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "hydrocortisone": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "stemetil": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "dextrose": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "sodiumBicarbonate": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "pottasium": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "calcium": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "atropine": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "adrenaline": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "gelafundin": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "ceftriaoxine": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "promethazineSyrup": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "nifedipine": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "atenolol": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "zincSulphate": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "paracetamol": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "suppository": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "actrapidInsulin": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "valoron": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "syringesInsulin": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "mmt": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "asprinTap": {
+      "type": {
+        "qty": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
