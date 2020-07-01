@@ -1,0 +1,144 @@
+{
+  "name": "visit",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "bookedDate": {
+      "type": "string"
+    },
+    "bookedTime": {
+      "type": "string"
+    },
+    "bp": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "procedure": {
+      "type": "string"
+    },
+    "temp": {
+      "type": "string"
+    },
+    
+    "purpose": {
+      "type": "string"
+    },
+    "sugar": {
+      "type": "string"
+    },
+    "chronic": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "oxygen": {
+      "type": "string"
+    }, 
+    "bmi": {
+      "type": "string"
+    },
+    "vision": {
+      "type": "string"
+    },
+    "allergies": {
+      "type": "string"
+    },
+    "histroy": {
+      "type": "string"
+    },
+    "doctorInvestigations": {
+      "type": "string"
+    },
+    "medication": {
+      "type": "string"
+    },
+    "results": {
+      "type": "string"
+    },
+    
+    "doctorOrders": {
+      "type": "string"
+    },
+    "nurseNotes": {
+      "type": "string"
+    },
+    "doctorNotes1": {
+      "type": "string"
+    },
+    "doctorFinding": {
+      "type": "string"
+    },
+    "chronicd": {
+      "type": "string"
+    },
+    "chronicDisease": {
+      "type": "string"
+    },
+    "communicable": {
+      "type": "string"
+    },
+    "communicableDisease": {
+      "type": "string"
+    },
+    "checkUp": {
+      "type": "string"
+    },
+    "doctorNotes2": {
+      "type": "string"
+    },
+    "doctorName": {
+      "type": "string"
+    },
+    "doctorDiagnosis": {
+      "type": "string"
+    },
+    "toCasualty": {
+      "type": "boolean",
+      "default": false
+    },
+    "toTheatre": {
+      "type": "boolean",
+      "default": false
+    },
+    "patientName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "firstVisit": {
+      "type": "boolean",
+      "default": false
+    },
+    "doctorCompleted": {
+      "type": "boolean",
+      "default": false
+    },
+    "nurseCompleted": {
+      "type": "boolean",
+      "default": false
+    },
+    "status": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },"consultationCheck": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
