@@ -45,6 +45,9 @@
     },
     "suffix": {
       "type": "string"
+    },"consultationCheck": {
+      "type": "boolean",
+      "default": false
     },
     "email": {
       "type": "string"

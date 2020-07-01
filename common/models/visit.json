@@ -132,6 +132,9 @@
     },
     "gender": {
       "type": "string"
+    },"consultationCheck": {
+      "type": "boolean",
+      "default": false
     }
   },
   "validations": [],
